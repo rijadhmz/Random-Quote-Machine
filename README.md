@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+## Random Quote Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project involves a React application that functions as a "Random Quote Machine." It was developed as part of the FreeCodeCamp "Front End Development Libraries" course certification.
 
-## Available Scripts
+### Project Description
 
-In the project directory, you can run:
+The Random Quote Machine is a web application built using React and Redux. The application generates and displays random quotes to the user, allowing them to discover and share inspiring quotes from various sources.
 
-### `npm start`
+### Challenge Requirement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The challenge required building an app similar to [this example](https://random-quote-machine.freecodecamp.rocks/). The following user stories were fulfilled:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. The app contains a wrapper element with the id "quote-box."
+2. Within the wrapper, there are elements with the ids "text" and "author."
+3. The "new-quote" button fetches and displays a new random quote.
+4. The "tweet-quote" button allows users to share the current quote on Twitter.
 
-### `npm test`
+### Implementation Details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project leverages Redux to manage the application's state and provide seamless control over quote generation and display. A reducer handles the state updates, and the application's UI is crafted using React components.
 
-### `npm run build`
+### Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Redux
+- Bootstrap (for styling)
+- Font Awesome (for Twitter icon)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Example
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Random Quote Machine](https://github.com/rijadhmz/Random-Quote-Machine/blob/secondary/images/example.png?raw=true)
 
-### `npm run eject`
+### Project URL
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To interact with the deployed project, visit [Project URL](link_to_live_project_here).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project showcases the integration of React, Redux, and external APIs to create an engaging and interactive user experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
