@@ -28,7 +28,7 @@ The project leverages Redux to manage the application's state and provide seamle
 
 ### Example
 
-[!Random Quote Machine](https://github.com/rijadhmz/Random-Quote-Machine/blob/secondary/images/example.png?raw=true)
+![Random Quote Machine](https://github.com/rijadhmz/Random-Quote-Machine/blob/secondary/images/example.png?raw=true)
 
 ### Project URL
 
