@@ -32,7 +32,7 @@ The project leverages Redux to manage the application's state and provide seamle
 
 ### Project URL
 
-To interact with the deployed project, visit my [Codepenn Project](https://codepen.io/rijadhmz/pen/bGQYXEN).
+To interact with the deployed project, visit my [Codepen Project](https://codepen.io/rijadhmz/pen/bGQYXEN).
 
 This project showcases the integration of React, Redux, and external APIs to create an engaging and interactive user experience.
 
